@@ -11,9 +11,9 @@ namespace CalculadoraUNIP
         
         public static void MostrarMaterias()
         {
-            ListaDicionario.registrarMaterias.Add("Programação Orientada a Objetos", new List<double> ());
-            ListaDicionario.registrarMaterias.Add("Banco de Dados", new List<double> ());
-            ListaDicionario.registrarMaterias.Add("Engenharia de Software", new List<double> ());
+            ListaDicionario.registrarMaterias.TryAdd("Programação Orientada a Objetos", new List<double> ());
+            ListaDicionario.registrarMaterias.TryAdd("Banco de Dados", new List<double> ());
+            ListaDicionario.registrarMaterias.TryAdd("Engenharia de Software", new List<double> ());
             try
             {
                 Titulo.ExibirTitulo("Vizualização de Matérias do Semestre");
