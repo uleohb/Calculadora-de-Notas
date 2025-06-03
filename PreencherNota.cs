@@ -28,8 +28,8 @@ namespace CalculadoraUNIP
                 else
                 {
                     Console.WriteLine($"A matéria {nomeMateria} não esta registrada.");
-                    Console.Clear();
                     Thread.Sleep(1500);
+                    Console.Clear();        
                     PreencherMateria();
                 }
                 return 0.0;
