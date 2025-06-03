@@ -15,5 +15,5 @@ obter o resultado da média e por último uma função para finalizar o programa
 - Desenvolvido em C#
 - Visual Studio Community 2022
 
-  # Autor
-  - Leonardo Henrique (https://github.com/uleohb)
+# Autor
+- Leonardo Henrique (https://github.com/uleohb)
